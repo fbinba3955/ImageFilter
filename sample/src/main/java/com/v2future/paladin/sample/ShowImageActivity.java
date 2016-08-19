@@ -52,7 +52,7 @@ public class ShowImageActivity extends BaseActivity implements View.OnClickListe
     }
 
     private void initImage(int id){
-        ColorReversalFilter filter = new ColorReversalFilter();
+        RainBowFilter filter = new RainBowFilter();
         int resourceId = R.mipmap.img1;
         switch (id) {
             case 1:
